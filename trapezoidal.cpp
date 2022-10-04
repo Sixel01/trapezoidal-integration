@@ -1,3 +1,5 @@
+//C++ program to evaluate numerical integration
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
