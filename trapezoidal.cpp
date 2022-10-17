@@ -1,7 +1,7 @@
 //C++ program to evaluate numerical integration
 
 #include <iostream>
-#include <vector>
+//#include <vector>
 #include <algorithm>
 #include <execution>
 #include <numeric>
@@ -38,7 +38,7 @@ int main()
     iota(begin(indices), end(indices), std::size_t{});
 
     // Initialize the x-coordinates array
-    transform
+//    transform
     (
         execution::par_unseq,
         begin(indices), end(indices),
@@ -50,7 +50,7 @@ int main()
     );
 
     // Initialize the function array
-    transform
+//    transform
     (
         execution::par_unseq,
         begin(indices), end(indices),
